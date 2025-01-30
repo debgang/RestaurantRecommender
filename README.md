@@ -22,31 +22,33 @@ master data. Final dataset is uploaded.
 
 # Sample interaction
 
-Chatbot sample
+Chatbot sample  
 **Bot** : Hello! I'm here to help you find the perfect restaurant in Bangalore. Could you please 
-share your preferred location or any specific area you're interested in?
-**User** : I am interested in BTM area
+share your preferred location or any specific area you're interested in?  
+
+**User** : I am interested in BTM area    
+
 **Bot** : Great! We have many restaurants in the BTM area. Do you prefer online ordering and 
-table booking?
-User : No
+table booking?    
+**User** : No    
 **Bot** : Thank you for the information. What type of cuisine do you prefer (e.g., North Indian, 
-South Indian, Continental, Chinese, etc.)?
-**User** : North India,Chinese
+South Indian, Continental, Chinese, etc.)?  
+**User** : North India,Chinese  
 **Bot** : Thank you for sharing your cuisine preferences. What type of restaurant do you prefer 
-(e.g., Fine Dining, Casual Dining, Street food, Quick Bites, Dhaba)?
-**User** : Casual Dining
+(e.g., Fine Dining, Casual Dining, Street food, Quick Bites, Dhaba)?  
+**User** : Casual Dining  
 **Bot** : Thank you for the information. Do you have any preference for the minimum rating for 
-the restaurant? If yes, please provide a minimum rating in the range of 2 to 5.
-**User** : Minimum rating of 3
-**Bot** : Thank you for the information. What is your approximate budget for 2 people?
-**User** : 800
-**Bot** : Thank you for providing all the details. Here's the profile based on your preferences:
+the restaurant? If yes, please provide a minimum rating in the range of 2 to 5.  
+**User** : Minimum rating of 3  
+**Bot** : Thank you for the information. What is your approximate budget for 2 people?  
+**User** : 800  
+**Bot** : Thank you for providing all the details. Here's the profile based on your preferences:  
 {'Location': 'BTM', 'Online Order Accepted': 'No', 'Table booking allowed': 'No', 'Cuisine': 
 'North Indian, Chinese', 'Restaurant type': 'Casual Dining', 'Rating': 'Medium', 'Average cost 
-for 2': '800'} 
+for 2': '800'}   
 **Bot** : Thank you for providing all the information. Kindly wait, while I will share with you the 
-recommended restaurants: 
-Based on your preferences, here are the top 3 recommended restaurants in BTM:
+recommended restaurants:   
+Based on your preferences, here are the top 3 recommended restaurants in BTM:  
 1. **Birinz**: Located at 1st Floor, BTM Complex, 9th Main Road, 1st Stage, BTM, 
 Bangalore. Phone: +91 8197022223, +91 9141111222. This casual dining restaurant offers 
 a variety of cuisines including Biryani, Chinese, Mughlai, Fast Food, and Kebab. It has a 
@@ -59,8 +61,8 @@ Phone: 080 49994999. This casual dining restaurant offers Arabian, North Indian,
 and Fast Food cuisines. It also has a medium rating with an average cost for two at ₹800.
 Please note that while these restaurants accept online orders, they do not allow table 
 bookings.
-**User** : exit
-**Bot** : If you have any more questions in the future, feel free to ask. Have a great day
+**User** : exit  
+**Bot** : If you have any more questions in the future, feel free to ask. Have a great day  
 
 # Libraries used
 
@@ -72,10 +74,10 @@ bookings.
 - Get Azure Open AI subscription (https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
 - Set the following environment variables in your OS
 
-   AZURE_API_VERSION
-   AZURE_DEPLOYMENT_NAME
-   AZURE_OPENAI_API_KEY
-   AZURE_OPENAI_ENDPOINT
+   AZURE_API_VERSION  
+   AZURE_DEPLOYMENT_NAME  
+   AZURE_OPENAI_API_KEY  
+   AZURE_OPENAI_ENDPOINT  
 
 - Sync all files in the respository to a folder
 - Run python file dialog_flow_restaurant.py
